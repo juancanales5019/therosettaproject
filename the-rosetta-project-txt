@@ -1,0 +1,75 @@
+the-rosetta-project
+│
+├── index.html                 # Main landing page
+├── about.html                 # About page
+├── contact.html               # Contact page
+├── resources/                 # Folder containing specific language resources
+│   ├── spanish/               # Spanish learning materials
+│   │   ├── index.html         # Overview of Spanish resources
+│   │   ├── beginner.html      # Spanish beginner-level resources
+│   │   ├── intermediate.html  # Spanish intermediate-level resources
+│   │   ├── advanced.html      # Spanish advanced-level resources
+│   │   └── audio/             # Audio resources for Spanish
+│   │       └── audio1.mp3     # Example Spanish audio file
+│   ├── french/                # French learning materials
+│   │   ├── index.html         # Overview of French resources
+│   │   ├── beginner.html      # French beginner-level resources
+│   │   ├── intermediate.html  # French intermediate-level resources
+│   │   ├── advanced.html      # French advanced-level resources
+│   │   └── audio/             # Audio resources for French
+│   │       └── audio1.mp3     # Example French audio file
+│   ├── chinese/               # Chinese learning materials
+│   │   ├── index.html         # Overview of Chinese resources
+│   │   ├── beginner.html      # Chinese beginner-level resources
+│   │   ├── intermediate.html  # Chinese intermediate-level resources
+│   │   ├── advanced.html      # Chinese advanced-level resources
+│   │   └── audio/             # Audio resources for Chinese
+│   │       └── audio1.mp3     # Example Chinese audio file
+│   ├── arabic/                # Arabic learning materials
+│   │   ├── index.html         # Overview of Arabic resources
+│   │   ├── beginner.html      # Arabic beginner-level resources
+│   │   ├── intermediate.html  # Arabic intermediate-level resources
+│   │   ├── advanced.html      # Arabic advanced-level resources
+│   │   └── audio/             # Audio resources for Arabic
+│   │       └── audio1.mp3     # Example Arabic audio file
+│   ├── english/               # English learning materials
+│   │   ├── index.html         # Overview of English resources
+│   │   ├── beginner.html      # English beginner-level resources
+│   │   ├── intermediate.html  # English intermediate-level resources
+│   │   ├── advanced.html      # English advanced-level resources
+│   │   └── audio/             # Audio resources for English
+│   │       └── audio1.mp3     # Example English audio file
+│   ├── russian/               # Russian learning materials
+│   │   ├── index.html         # Overview of Russian resources
+│   │   ├── beginner.html      # Russian beginner-level resources
+│   │   ├── intermediate.html  # Russian intermediate-level resources
+│   │   ├── advanced.html      # Russian advanced-level resources
+│   │   └── audio/             # Audio resources for Russian
+│   │       └── audio1.mp3     # Example Russian audio file
+│   └── german/                # German learning materials
+│       ├── index.html         # Overview of German resources
+│       ├── beginner.html      # German beginner-level resources
+│       ├── intermediate.html  # German intermediate-level resources
+│       ├── advanced.html      # German advanced-level resources
+│       └── audio/             # Audio resources for German
+│           └── audio1.mp3     # Example German audio file
+├── assets/                    # Folder for assets (images, styles, scripts)
+│   ├── css/                   # Stylesheets
+│   │   ├── styles.css         # Global styles for the site
+│   │   └── theme.css          # Theme-specific styles for languages
+│   ├── js/                    # JavaScript files for interactivity
+│   │   ├── app.js             # Main JavaScript file for site functionality
+│   │   └── helpers.js         # Helper JavaScript functions
+│   ├── images/                # Folder for images
+│   │   ├── logo.png           # Project logo
+│   │   └── banner.jpg         # Banner image for the site
+├── data/                      # Data files (e.g., JSON or CSV files)
+│   ├── languages.json         # List of languages with resources metadata
+│   └── users.csv              # Sample user data for personalization (if required)
+├── docs/                      # Documentation for the project
+│   ├── README.md              # Project overview and setup guide
+│   ├── CONTRIBUTING.md        # Guidelines for contributing to the project
+│   └── LICENSE                # License information for the project
+└── .github/                   # GitHub-specific files for actions (optional)
+    └── workflows/
+        └── deploy.yml         # GitHub Actions workflow for deployment
